@@ -1,0 +1,160 @@
+﻿* {
+    padding: 0;
+    Margin: 0;
+    Border: 0;
+}
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+Nav, footer, header, aside {
+    display: block;
+}
+
+Html, body {
+    Height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-Height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+Input, button, textarea {
+    font-family: inherit;
+}
+
+    Input::-ms-clear {
+        display: none;
+    }
+
+Button {
+    cursor: pointer;
+}
+
+    Button::-moz-focus-inner {
+        padding: 0;
+        border: 0
+    }
+
+a, a:visited {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+H1, h2, h3.h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+body {
+    padding: 30px;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612502273_27-p-krasivii-belo-serii-fon-30.jpg)
+}
+div.travel{
+    font-family: Verdana;
+    text-align: center;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: #7149b4 !important;
+    text-decoration: none
+}
+.Заголовок {
+    font-family: ms sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    color: #7149b4;
+    text-shadow: 1px 1px 0 #000000;
+}
+img {
+    width: 85%;
+    height: auto;
+}
+.Инфо {
+    text-align: justify;
+    font-size: 25px;
+    margin: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.menu p {
+    padding: 12px 4px;
+}
+.menu {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -8%;
+    height: 50%;
+    font-family: dayton;
+    font-size: 2vw;
+    color: ghostwhite;
+    width: 8%;
+    border-radius: 0 25px;
+    border-right: 2px solid #7149b4;
+    border-bottom: 2px solid #7d55c1;
+    background: url(https://прорабофф.рф/wp-content/uploads/4/2/f/42f500689a07596f5219254e33055b54.jpeg);
+}
+    menu.active {
+        left: 0px;
+    }
+    .kn {
+        position: absolute;
+        left: 110%;
+        background: #7d55c1;
+        opacity: 0.5;
+        padding: 10px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    .kn:hover {
+        background: #390989
+    }
+    .kn :hover span {
+        background: #390989
+    }
+    .kn span {
+        display: block;
+        width: 25px;
+        height: 4px;
+        background-color: #f0ebf8;
+        margin: 4px 0;
+    }
+.social img{
+    width:70%
+}
+.social1 img{
+    width:60%;
+    padding-left: 10%
+}
